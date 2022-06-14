@@ -2,6 +2,7 @@
 	padding: 10px;
     margin: 30px;
     font-size: 25px;
+    box-shadow: ;
 }
 .subtitulo{
     padding: 10px;
@@ -9,3 +10,15 @@
     font-size: 25px;
 
 }
+.conteudoPrincipal-pratos{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+box-shadow:10px 10px 10px #CCC;
+align-items: stretch;
+}
+
+.conteudoPrincipal-pratos-link:hover{
+    box-shadow: 4px 4px 4px ;
+}
+
