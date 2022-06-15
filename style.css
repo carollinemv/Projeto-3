@@ -2,7 +2,13 @@
 	padding: 10px;
     margin: 30px;
     font-size: 25px;
-    box-shadow: ;
+    background: #BBBB;
+}
+.legenda{
+    color: brown;
+    margin: 0 0 0 29px;
+    
+   
 }
 .subtitulo{
     padding: 10px;
@@ -10,7 +16,7 @@
     font-size: 25px;
 
 }
-.conteudoPrincipal-pratos{
+.conteudoPrincipal-pratos .container {
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -19,12 +25,21 @@ box-shadow:40px 10px 10px #CCC;
 align-items: stretch;
 border: 2px solid #000000;
 border-radius: 5px;
-
-
-
+box-sizing: border-box;
 }
+
+.conteudoPrincipal-pratos-link{
+    box-sizing: border-box;  
+}
+
+
 
 .conteudoPrincipal-pratos-link:hover{
     box-shadow: 4px 4px 4px ;
 }
+    .conteudoPrincipal-pratos li{
+        box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
 
+    }
